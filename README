@@ -1,1 +1,3 @@
-We are building a simple internet radio... More to come.
+An Internet Radio is capable of streaming audio from the internet. We have used a microcontroller (in this case, Raspberry Pi) to make a wireless Internet Radio. We have used mpc, a client for mpd (music player daemon), to fetch audio streams and play them.
+
+The 'links.txt' has the list of audio streams that need to be played (this can be modified). The 'add_station.py' adds the audio streams in the 'links.txt' file to the playlist.
